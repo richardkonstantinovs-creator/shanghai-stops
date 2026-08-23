@@ -1,20 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <!-- The stop bar, cut down to what survives at 16 px: three stops earned,
-       one not. SITE.md §1 — "works as a favicon". -->
-  <style>
-    rect.g { fill: #E7E9E7 }
-    .ink { fill: #16191C; stroke: #16191C }
-    .off { fill: none; stroke: #C9CDC9 }
-    @media (prefers-color-scheme: dark) {
-      rect.g { fill: #14171A }
-      .ink { fill: #E4E7E4; stroke: #E4E7E4 }
-      .off { stroke: #333A3F }
-    }
-  </style>
-  <rect class="g" width="64" height="64"/>
-  <line class="ink" x1="14" y1="32" x2="36" y2="32" stroke-width="5"/>
-  <circle class="ink" cx="14" cy="32" r="7"/>
-  <circle class="ink" cx="25" cy="32" r="7"/>
-  <circle class="ink" cx="36" cy="32" r="7"/>
-  <circle class="off" cx="50" cy="32" r="5.5" stroke-width="4"/>
+       one not. SITE.md §1 — "works as a favicon".
+
+       Yellow ground, ink mark, in both schemes. A favicon is a tab at 16 px
+       among twenty other tabs, and the one thing that finds it there is a
+       flat block of a colour nothing else is using. The scheme-aware version
+       this replaces went grey on grey at that size and was unfindable. -->
+  <rect width="64" height="64" fill="#FFCB05"/>
+  <g fill="#101215" stroke="#101215">
+    <line x1="14" y1="32" x2="36" y2="32" stroke-width="6"/>
+    <circle cx="14" cy="32" r="7.5"/>
+    <circle cx="25" cy="32" r="7.5"/>
+    <circle cx="36" cy="32" r="7.5"/>
+  </g>
+  <circle cx="50" cy="32" r="5.5" fill="none" stroke="#101215" stroke-width="4" stroke-opacity=".45"/>
 </svg>
