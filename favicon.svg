@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- The stop bar, cut down to what survives at 16 px: three stops earned,
+       one not. SITE.md §1 — "works as a favicon". -->
+  <style>
+    rect.g { fill: #E7E9E7 }
+    .ink { fill: #16191C; stroke: #16191C }
+    .off { fill: none; stroke: #C9CDC9 }
+    @media (prefers-color-scheme: dark) {
+      rect.g { fill: #14171A }
+      .ink { fill: #E4E7E4; stroke: #E4E7E4 }
+      .off { stroke: #333A3F }
+    }
+  </style>
+  <rect class="g" width="64" height="64"/>
+  <line class="ink" x1="14" y1="32" x2="36" y2="32" stroke-width="5"/>
+  <circle class="ink" cx="14" cy="32" r="7"/>
+  <circle class="ink" cx="25" cy="32" r="7"/>
+  <circle class="ink" cx="36" cy="32" r="7"/>
+  <circle class="off" cx="50" cy="32" r="5.5" stroke-width="4"/>
+</svg>
