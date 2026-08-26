@@ -1,0 +1,47 @@
+{
+  "name": "Stops — Shanghai",
+  "short_name": "Stops",
+  "description": "A Shanghai guide measured in metro stops.",
+  "start_url": "/shanghai-stops/",
+  "scope": "/shanghai-stops/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#EFF0EA",
+  "theme_color": "#EFF0EA",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/shanghai-stops/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/shanghai-stops/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/shanghai-stops/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/shanghai-stops/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Every place",
+      "url": "/shanghai-stops/places"
+    },
+    {
+      "name": "The map",
+      "url": "/shanghai-stops/map"
+    }
+  ]
+}
